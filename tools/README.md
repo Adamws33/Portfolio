@@ -1,0 +1,1 @@
+"# Use this folder for third party tools. This folder is commonly called 'Vendor'" 
