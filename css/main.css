@@ -67,3 +67,59 @@
 .floatl{
   float: left;
 }
+.portItem{
+  border: 1px solid black;
+  text-align: center;
+  padding: -1%;
+  margin: 1%;
+  left: 10%;
+}
+#portContainer{
+  text-align: center;
+}
+.portrow{
+  left: 10%;
+}
+#aboutSec{
+  background-color: skyblue;
+  text-align: center;
+  color: black;
+}
+#contactHead{
+  margin-top: 0%;
+  color: black;
+}
+#subjectForm{
+  margin-left: 20%;
+}
+#messageForm{
+  margin-left: 12.5%;
+}
+.message{
+  width: 75%;
+  height: 150px;
+}
+.formH4{
+  margin-bottom: 0%;
+}
+#contactSub{
+  float:right;
+  color: black;
+}
+#contactSec{
+  color: black;
+}
+#socialMedia{
+  position: relative;
+  border: 6px solid black;
+  width: 100px;
+  height: 275px;
+  left: 100%;
+}
+#footer{
+  color: white;
+  background-color: black;
+}
+.socialLinks{
+  float: right;
+}
