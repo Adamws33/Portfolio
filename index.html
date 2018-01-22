@@ -53,33 +53,33 @@
     </header>
 
     <!-- Projects -->
-    <div class="container-fluid center wow flipInX" id='portContainer'>
+    <div class="container-fluid center" id='portContainer'>
             <div class="row portRow">
             <h2 class = "text-center">PORTFOLIO ITEMS</h2>
-                <div class="col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 1</h3>
+                <div class="col-md-3 portItem wow hinge" data-wow-delay='8.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 1</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 2</h3>
+                <div class="col-md-3 portItem wow hinge" data-wow-delay='6.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 2</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 3</h3>
+                <div class="col-md-3 portItem wow hinge" data-wow-delay='1.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 3</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 4</h3>
+                <div class="col-md-3 portItem wow hinge" data-wow-delay='3.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 4</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
             </div><br>
             <div class="row">
-                <div class="col-xs-9 col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 5</h3>
+                <div class="col-xs-9 col-md-3 portItem wow hinge" data-wow-delay='5.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 5</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-xs-9 col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 6</h3>
+                <div class="col-xs-9 col-md-3 portItem wow hinge" data-wow-delay='7.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 6</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-xs-9 col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 7</h3>
+                <div class="col-xs-9 col-md-3 portItem wow hinge" data-wow-delay='4.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 7</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-xs-9 col-md-3 portItem wow flash" style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 8</h3>
+                <div class="col-xs-9 col-md-3 portItem wow hinge" data-wow-delay='2.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 8</h3>
                     <button class="portButton1"> Click Me </button> <button class="portButton2">Click Me</button>
                 </div>
             </div>
@@ -114,22 +114,21 @@
         <!-- Contact info -->
     <section class="bg-primary" id='contactSec'>
       <div class="container" id='contact'>
-        <form id='contactForm'>
+        <form action="https://formspree.io/adamws33@gmail.com" method="POST" id='contactForm'>
             <h2 class = "text-center">CONTACT ME</h2>
-            <div class="col-xs-9 col-md-12 text-center"><h3 id="contactHead">
-              Below you can reach out to me directly with any questions, comments, critiques, or just to chat.  
-            </div></h3>
             <div class="col-xs-9 col-md-6 center">
-              <h4 class = 'formH4'>Your Name:</h4><input type="text" class="name" size="70">
+              <h4 class = 'formH4'>Your Name:</h4>
+                <input type="text" class="name form-control" placeholder="Your Name" id='name' required="" data-validation-required-message="Please leave your name"
+                name="name">
             </div>
             <div class="col-xs-9 col-md-6 center">
-              <h4 class = 'formH4'>Your Email:</h4><input type="text" class="email" size="70">
-            </div>
-            <div class="col-xs-9 col-md-12 center" id='subjectForm'>
-              <h4 class = 'formH4'>Subject:</h4><input type="text" class="subject" size="90"><br>
+              <h4 class = 'formH4'>Your Email:</h4>
+                <input type="email" class="name form-control" placeholder="Your Email" id='email' required="" data-validation-required-message="Please leave your email"
+                    name="_replyto">
             </div>
             <div class="col-xs-9 col-md-12 center" id='messageForm'>
-              <h4 class = 'formH4'>Your Message:</h4><input type="text" class="message" size="1000">
+              <h4 class = 'formH4'>Your Message:</h4><textarea class="form-control" rows="7" id="message" required="" data-validation-required-message="Please leave a message"
+              name="message"></textarea>
             </div>
             <div class="col-xs-9 col-md-12 center"><button id="contactSub">Submit</button>
             </div>
