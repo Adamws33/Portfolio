@@ -40,7 +40,7 @@
   width: 15%;
   height: 6.50%;
   margin-left: 0%;
-  background-color: rgba(51, 50, 50, 0.6);
+  background-color: rgba(83, 83, 83, 0.6);
   z-index: 10; }
 
 .email {
@@ -147,6 +147,21 @@ header {
   height: 75%;
   width: 75%; }
 
+#tech {
+  margin: 0%;
+  padding: 0%;
+  background-color: black; }
+
+.tech {
+  color: white;
+  margin: 0%;
+  padding: 0%; }
+
+.techLinks {
+  padding-left: 5%;
+  font-size: 70px;
+  color: white; }
+
 /* CSS code for the Contact section. */
 #contactHead {
   margin-top: 0%;
@@ -182,16 +197,7 @@ header {
   background-color: black; }
 
 .socialLinks {
-  float: right; }
-
-.ion-social-octocat {
-  font-size: 30px;
-  color: white; }
-
-.ion-social-linkedin {
-  font-size: 30px;
-  color: white; }
-
-.ion-social-facebook-outline {
-  font-size: 30px;
+  float: right;
+  padding-left: 2%;
+  font-size: 35px;
   color: white; }
