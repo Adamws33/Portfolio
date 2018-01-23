@@ -1,14 +1,44 @@
 /* CSS code for the Header section. */
 header{
+    background: url('https://i.imgur.com/rzEKice.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  height: 1080px;
+  width: 100%;
+}
+#header{
   background: url('https://i.imgur.com/rzEKice.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 1080px;
-  width: 1920px;
 }
 #headTxt{
   color: black;
-  
+}
+.headH1 {
+  background-color: rgba(51, 50, 50, 0.6);
+}
+
+.headSpan {
+  color: white;
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.headOther{
+
+  background-color: rgba(51, 50, 50, 0.6);
+  color: white;
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.text-info{
+position: absolute;
+left: 43%;
+top: 85%;
+}
+.email{
+  left: 15%;
 }

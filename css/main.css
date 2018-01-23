@@ -31,9 +31,22 @@
 
 .floatl {
   position: fixed;
-  left: 7%;
-  padding: 0%;
-  margin: 0%; }
+  text-align: center;
+  left: 2%;
+  top: -1%;
+  width: 15%;
+  height: 6.75%;
+  margin-left: 0%;
+  background-color: rgba(190, 190, 190, 0.6);
+  z-index: 10; }
+
+.email {
+  position: fixed;
+  left: 0%;
+  padding-top: 01%;
+  margin: 0%;
+  background-color: rgba(190, 190, 190, 0);
+  z-index: 10; }
 
 .nav-item {
   margin: 0%;
@@ -41,6 +54,10 @@
   right: 10%;
   border: 5px solid black;
   border-radius: 20%; }
+
+.nav-link {
+  background-color: darkblue;
+  color: white; }
 
 /* CSS code for the Header section. */
 header {
@@ -50,14 +67,43 @@ header {
   background-size: cover;
   -o-background-size: cover;
   height: 1080px;
-  width: 1920px; }
+  width: 100%; }
+
+#header {
+  background: url("https://i.imgur.com/rzEKice.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
 
 #headTxt {
   color: black; }
 
+.headH1 {
+  background-color: rgba(51, 50, 50, 0.6); }
+
+.headSpan {
+  color: white;
+  filter: alpha(opacity=100);
+  opacity: 1; }
+
+.headOther {
+  background-color: rgba(51, 50, 50, 0.6);
+  color: white;
+  filter: alpha(opacity=100);
+  opacity: 1; }
+
+.text-info {
+  position: absolute;
+  left: 43%;
+  top: 85%; }
+
+.email {
+  left: 15%; }
+
 .portItem {
   border: 1px solid black;
-  left: 10.5%;
+  left: 6%;
   width: 325px;
   margin: 1%;
   height: 350px;
@@ -94,6 +140,10 @@ header {
   text-align: center;
   color: black; }
 
+.meImg {
+  height: 75%;
+  width: 75%; }
+
 /* CSS code for the Contact section. */
 #contactHead {
   margin-top: 0%;
@@ -123,6 +173,7 @@ header {
   height: 275px;
   left: 100%; }
 
+/* CSS code for the Footer section. */
 #footer {
   color: white;
   background-color: black; }
@@ -130,4 +181,14 @@ header {
 .socialLinks {
   float: right; }
 
-/* CSS code for the Footer section. */
+.ion-social-octocat {
+  font-size: 30px;
+  color: white; }
+
+.ion-social-linkedin {
+  font-size: 30px;
+  color: white; }
+
+.ion-social-facebook-outline {
+  font-size: 30px;
+  color: white; }

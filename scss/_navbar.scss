@@ -1,63 +1,39 @@
 .awesome {
   color:#313131;
-
   -webkit-animation:colorchange 10s infinite alternate;
-  
-  
 }
-
 @-webkit-keyframes colorchange {
   0% {
-    
     color: blue;
   }
-  
   10% {
-    
     color: #8e44ad;
   }
-  
   20% {
-    
     color: #1abc9c;
   }
-  
   30% {
-    
     color: #d35400;
   }
-  
   40% {
-    
     color: blue;
   }
-  
   50% {
-    
     color: #34495e;
   }
-  
   60% {
-    
     color: blue;
   }
-  
   70% {
-    
     color: #2980b9;
   }
   80% {
- 
     color: #f1c40f;
   }
-  
   90% {
- 
     color: #2980b9;
   }
-  
   100% {
-    
     color: pink;
   }
 }
@@ -66,9 +42,22 @@ float: right;
 }
 .floatl{
   position: fixed;
-  left: 7%;
-  padding: 0%;
+  text-align: center;
+  left: 2%;
+  top: -1%;
+  width: 15%;
+  height: 6.75%;
+  margin-left: 0%;
+  background-color: rgba(190, 190, 190, 0.6);
+  z-index: 10;
+}
+.email{
+  position: fixed;
+  left: 0%;
+  padding-top:01%;
   margin: 0%;
+  background-color: rgba(190, 190, 190, 0.0);
+  z-index: 10;
 }
 .nav-item{
   margin: 0%;
@@ -76,5 +65,12 @@ float: right;
   right: 10%;
   border: 5px solid black;
   border-radius: 20%;
+}
+// .nav:hover .nav-item{
+//   background-color: darkblue;
+// }
+.nav-link{
+  background-color: darkblue;
+  color: white;
 }
 

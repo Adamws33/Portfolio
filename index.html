@@ -7,7 +7,9 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -17,19 +19,19 @@
             <nav>
                 <ul class="nav nav-pills row" id="navbar">
                     <li class="">
-                        <a class= "awesome" href="#"><h2 class= 'floatl'>Adam W. Smith</h2></a>
+                        <div class="floatl"><a class= "awesome" href="#"><h4 class= ''>Adam W. Smith </h4> </a><a class= "awesome" href="#"><h4 class= ''>AdamWS33@gmail.com</h4> </a></div> 
                     </li>
-                    <li class="nav-item navbar-brand">
-                        <a class="nav-link navLink" href="#">Active</a>
+                    <li class="nav-item navbar-brand navToHead">
+                        <a class="nav-link navLink" href="https://adamws33.github.io/Project1webpage/">Webpage</a>
                     </li>
-                    <li class="nav-item navbar-brand">
-                        <a class="nav-link navLink" href="#">Link</a>
+                    <li class="nav-item navbar-brand navToHead">
+                        <a class="nav-link navLink " href="http://awsregpg.herokuapp.com/">API</a>
                     </li>
-                    <li class="nav-item navbar-brand">
-                        <a class="nav-link navLink" href="#">Link</a>
+                    <li class="nav-item navbar-brand navToHead">
+                        <a class="nav-link navLink" href="https://codepen.io/Adamws33/pen/KZQxwJ">Monster</a>
                     </li>
-                    <li class="nav-item navbar-brand">
-                        <a class="nav-link navLink" href="#">Disabled</a>
+                    <li class="nav-item navbar-brand navToHead">
+                        <a class="nav-link navLink" href="localhost:3000">Disabled</a>
                     </li>
                 </ul>
             </nav>
@@ -37,16 +39,16 @@
     </div>
     <!--/.nav-collapse -->
     <!-- header -->
-    <header class="jumbotron text-center">
+    <header class="jumbotron text-center" id='header'>
         <div class="container-fluid lean text-center" id="headTxt">
-            <h1 class="jumbotron-heading">Developer, Business owner, Husband, Student and so much more
-                <a class="awesome" href="#">...</a>
+            <h1 class="jumbotron-heading headH1"><span class="headSpan">Developer, Business owner, Husband, Student and so much more</span> 
+                <a class="awesome">...</a>
             </h1>
             <div class="text-info">
-                Current amazing thing I am doing.
+                <span class="headOther">Current amazing thing I am doing.</span> 
                 <br>
                 <a href="#">
-                    <div class="btn btn-default text-center nav-pills nav-link active">link to other cool stuff</div>
+                    <div class="btn btn-default text-center nav-pills nav-link navLink">Current Project</div>
                 </a>
             </div>
         </div>
@@ -94,7 +96,7 @@
     <section class="bg-primary" id='aboutSec'>
       <div class="container-fluid wow fadeInLeft" data-wow-delay='0.5s' id='about'>
             <h2 class = "text-center">ABOUT ME</h2><h3>Thank you for visiting, here is a little more about me:</h3>
-            <div class="col-xs-9 col-md-6 center ">
+            <div class="col-xs-9 col-md-4 center ">
               <p class = 'lead'> 
                   I am in the process of changing careers from accounts payable and receivables.  I have spent all of my time since college
                   dedicated to corporate finance which has left me feeling less than fulfilled.  I have always been interested in development since
@@ -105,7 +107,7 @@
                   
             </p>
             </div>
-            <div class="col-xs-9 col-md-6 center">
+            <div class="col-xs-9 col-md-4 center">
                 <p class = 'lead'> 
                     I have played sports all my life and recently turned my love for volleyball into a part-time summer business.  I have 
                     hosted volleyball tournaments for the past few years and am excited to incoperate what I am learning to further my
@@ -114,6 +116,10 @@
                     take my love of logic problems and problem solving and find a way to turn it into a career.  I am beyond excited to feel
                     like I have found that in development.  
                 </p>
+            </div>
+            <div class="col-xs-9 col-md-4 center">
+                <img class = "meImg" src="https://i.imgur.com/1CQXdNK.jpg" alt="me">
+                
             </div>
       </div>
     </section>
@@ -143,15 +149,20 @@
     </section>
     <!-- footer -->
     <section>
-      <footer class="bg-primary" id='footer'>
-        <p><a href="#">Back to top</a></p>
-        <p>&copy Smith Adam Inc.
-        <a href="#">Privacy agreement</a>
-        <a href="#">Terms.</a>
-        <a class='socialLinks' href="#">-LinkedIn</a>
-        <a class='socialLinks' href="#">--Facebook--</a>
-        <a class='socialLinks' href="https://github.com/Adamws33">GitHub-</a>
-        </p>
+      <footer class="bg-primary " id='footer'>
+        <div class="container">
+            <p><a href="#">Back to top</a>
+            <a class='socialLinks icon ion-social-linkedin text-center ' href="www.linkedin.com/in/adamws33"></a>
+            <a class='socialLinks icon ion-social-facebook-outline text-center ' href="https://www.facebook.com/LilRipstas">--</a>
+            <a class='socialLinks icon ion-social-octocat text-center ' href="https://github.com/Adamws33">--</a>
+            </p>
+            <p>&copy Smith Adam Inc.
+            <a href="#">Privacy agreement</a>
+            <a href="#">Terms.</a>
+            </p>
+        </div>  
+
+
       </footer>
     </section>
 
