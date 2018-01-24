@@ -135,7 +135,7 @@
 
 #portContainer .port .portItem:hover h3 {
   -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, -20px, 0);
   opacity: 1.0; }
 
 #portContainer .port .portItem h3 {
