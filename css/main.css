@@ -95,6 +95,7 @@
   margin: 0%; }
 
 .headSpan {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: white;
   filter: alpha(opacity=100);
   opacity: 1;
@@ -151,6 +152,9 @@
 
 .portrow {
   left: 10%; }
+
+.portFont {
+  font-family: "Arial Black", Gadget, sans-serif; }
 
 #aboutSec {
   background-color: lightblue;
