@@ -126,7 +126,8 @@
   color: white;
   text-align: center;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-color: rgba(51, 50, 50, 0.4); }
 
 #portContainer .port:hover .portItem {
   color: black;
