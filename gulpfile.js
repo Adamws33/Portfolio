@@ -42,6 +42,7 @@ gulp.task('minify-js', function() {
         stream: true
       }))
   });
+  
 
   //Runs all appropriate tasks and watches for changes. 
 gulp.task('dev', ['serve', 'sass', 'minify-js'], function() {
@@ -51,3 +52,5 @@ gulp.task('dev', ['serve', 'sass', 'minify-js'], function() {
     gulp.watch('*.html', reload);
     gulp.watch('js/**/*.js', reload);
   });
+
+  gulp.task('default', ['dev']);
