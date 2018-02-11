@@ -2,10 +2,10 @@
   background-color: rgb(195, 240, 255);
   text-align: center;
   color: black;
+  padding: 60px;
+
 }
 .meImg{
-  height: 55%;
-  width: 55%;
   border-radius: 15%;
 }
 #tech{
@@ -16,7 +16,7 @@
 .tech{
   color: white;
   margin: 0%;
-  padding: 0%;
+  padding-top: 60px;
 }
 .techLinks{
   padding-left: 5%;
@@ -32,4 +32,6 @@
 }
 .me{
   top: -3rem;
+  height: 25rem;
+  width: 21rem;
 }

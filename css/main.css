@@ -1,21 +1,23 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0; }
 
 p {
   padding: 0;
-  margin: 0 0 30px 0; }
+  margin: 0 0 30px 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 a {
   color: sandybrown;
-  transition: 0.5s; }
+  transition: 0.5s;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 #header #logo {
   float: left; }
@@ -43,8 +45,7 @@ a {
     max-height: 40px; } }
 
 #header {
-  padding: 30px 0;
-  height: 75px;
+  padding: 30px;
   position: fixed;
   left: 0;
   top: 0;
@@ -55,7 +56,7 @@ a {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 75px;
   transition: all 0.5s; }
 
 .nav-menu, .nav-menu * {
@@ -157,98 +158,6 @@ a {
 .nav-menu ul ul {
   margin: 0; }
 
-/* Mobile Nav Toggle */
-#mobile-nav-toggle {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 999;
-  margin: 20px 20px 0 0;
-  border: 0;
-  background: none;
-  font-size: 24px;
-  display: none;
-  transition: all 0.4s;
-  outline: none;
-  cursor: pointer; }
-
-#mobile-nav-toggle i {
-  color: #fff; }
-
-@media (max-width: 768px) {
-  #mobile-nav-toggle {
-    display: inline; } }
-
-/* Mobile Nav Styling */
-#mobile-nav {
-  position: fixed;
-  top: 0;
-  padding-top: 18px;
-  bottom: 0;
-  z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
-  left: -260px;
-  width: 260px;
-  overflow-y: auto;
-  transition: 0.4s; }
-
-#mobile-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none; }
-
-#mobile-nav ul li {
-  position: relative; }
-
-#mobile-nav ul li a {
-  color: #fff;
-  font-size: 13px;
-  text-transform: uppercase;
-  overflow: hidden;
-  padding: 10px 22px 10px 15px;
-  position: relative;
-  text-decoration: none;
-  width: 100%;
-  display: block;
-  outline: none;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif; }
-
-#mobile-nav ul li a:hover {
-  color: #fff; }
-
-#mobile-nav ul li li {
-  padding-left: 30px; }
-
-#mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: sandybrown; }
-
-#mobile-nav ul .menu-has-children li a {
-  text-transform: none; }
-
-#mobile-nav ul .menu-item-active {
-  color: sandybrown; }
-
-#mobile-body-overly {
-  width: 100%;
-  height: 100%;
-  z-index: 997;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.7);
-  display: none; }
-
-/* Mobile Nav body classes */
-body.mobile-nav-active {
-  overflow: hidden; }
-
-body.mobile-nav-active #mobile-nav {
-  left: 0; }
-
-body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff; }
-
 /* CSS code for the Header section. */
 #lander {
   background: url("https://i.imgur.com/rzEKice.png") no-repeat center center fixed;
@@ -348,18 +257,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(51, 50, 50, 0.4); }
+  background-color: rgba(51, 50, 50, 0.4);
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
 
 #portContainer .port:hover {
   color: black;
   opacity: .7; }
 
 #portContainer .portItem:hover h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, -20px, 0);
   opacity: 1.0; }
 
 #portContainer .portItem h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 25px;
   transition: transform 0.3s, opacity .3s, -webkit-transform 0.3s;
   transform: translate3d(0, 150px, 0);
@@ -367,9 +279,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000; }
 
 #portContainer {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   background-color: #fafadf;
-  padding: 0%;
+  padding: 30px;
   margin: 0%; }
 
 .portrow {
@@ -389,10 +302,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .containerDog {
   width: 500px;
-  length: 500px;
-  position: absolute;
-  left: 29%;
-  top: 6%;
+  height: 500px;
+  position: relative;
+  left: 5.75rem;
+  top: -2.5rem;
   cursor: pointer; }
 
 .headDog {
@@ -689,11 +602,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #aboutSec {
   background-color: #c3f0ff;
   text-align: center;
-  color: black; }
+  color: black;
+  padding: 60px; }
 
 .meImg {
-  height: 55%;
-  width: 55%;
   border-radius: 15%; }
 
 #tech {
@@ -704,7 +616,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .tech {
   color: white;
   margin: 0%;
-  padding: 0%; }
+  padding-top: 60px; }
 
 .techLinks {
   padding-left: 5%;
@@ -719,7 +631,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 10px, solid, black; }
 
 .me {
-  top: -3rem; }
+  top: -3rem;
+  height: 25rem;
+  width: 21rem; }
 
 /* CSS code for the Contact section. */
 #contactHead {
@@ -771,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background-color: #1707f8;
   color: #fff;
   display: inline-block;
   width: 35px;
@@ -786,8 +700,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 11; }
 
 .back-to-top .top {
-  padding-top: 8px;
-  color: #fff; }
+  padding-top: 10px;
+  color: white; }
 
 @media (max-width: 768px) {
   .back-to-top {

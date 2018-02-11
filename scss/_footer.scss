@@ -19,7 +19,7 @@
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background-color: rgb(23, 7, 248);
   color: #fff;
   display: inline-block;
   width: 35px;
@@ -35,8 +35,9 @@
 }
 
 .back-to-top .top {
-  padding-top: 8px;
-  color: #fff;
+  padding-top: 10px;
+  color: white;
+  ;
 }
 
 @media (max-width: 768px) {
