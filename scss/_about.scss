@@ -1,11 +1,11 @@
 #aboutSec{
-  background-color: lightblue;
+  background-color: rgb(195, 240, 255);
   text-align: center;
   color: black;
 }
 .meImg{
-  height: 70%;
-  width: 70%;
+  height: 55%;
+  width: 55%;
   border-radius: 15%;
 }
 #tech{
@@ -22,4 +22,14 @@
   padding-left: 5%;
   font-size: 70px;
   color:white;
+}
+.about{
+  height: 100%;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  border: 10px, solid, black;
+}
+.me{
+  top: -3rem;
 }

@@ -4,7 +4,7 @@
 <head>
     <title>My Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="./css/main.css" rel="stylesheet" type="text/css">
@@ -15,94 +15,121 @@
 <body>
     <!-- nav bar -->
 
-  <section id="navHead">
+  <header id="header" >
     <div class="container-fluid">
         <div id="logo" class="pull-left">
-            <h1><a href="#linkedin">Adam W. Smith</a></h1>
+            <h1><a href="#linkedin" class="scrollto">Adam W. Smith</a></h1>
         </div>
-        <nav>
-            <ul class="nav nav-pills row" id="navbar">
-
-                <li class="nav-item navbar-brand navToHead">
-                    <a class="nav-link navLink" href="https://adamws33.github.io/Project1webpage/">Webpage</a>
+        <nav id="nav-menu-container">
+            <ul class="nav-menu" >
+                <li class="menu-active">
+                    <a href="https://adamws33.github.io/Project1webpage/">Webpage</a>
                 </li>
-                <li class="nav-item navbar-brand navToHead">
-                    <a class="nav-link navLink " href="http://awsregpg.herokuapp.com/">API</a>
+                <li>
+                    <a href="http://awsregpg.herokuapp.com/">API</a>
                 </li>
-                <li class="nav-item navbar-brand navToHead">
-                    <a class="nav-link navLink" href="https://codepen.io/Adamws33/pen/KZQxwJ">Monster</a>
+                <li>
+                    <a href="https://codepen.io/Adamws33/pen/KZQxwJ">Monster</a>
                 </li>
-                <li class="nav-item navbar-brand navToHead">
-                    <a class="nav-link navLink" href="https://drive.google.com/file/d/16j5uPFDVpbzjTSKkWPMrx9Y2dTRxMZh3/view?usp=sharing" target="_blank">Resume</a>
+                <li>
+                    <a href="https://drive.google.com/file/d/16j5uPFDVpbzjTSKkWPMrx9Y2dTRxMZh3/view?usp=sharing" target="_blank">Resume</a>
                 </li>
             </ul>
         </nav>
-    </div>
-</section>  
+   </div>
+  </header>  
     <!--/.nav-collapse -->
     <!-- header -->
-    <section >
-        <header class="jumbotron text-center" id='header'>
+    <section class="jumbotron text-center" id='lander' >
           <div id="headBg">
             <div class="container-fluid lean text-center" id="headTxt">
                 <h1 class="jumbotron-heading headH1"><span class="headSpan">Developer, Husband, Student, and so much more</span> 
                     <a class="awesome">...</a>
                 </h1>
-                <div class="text-info">
-                    <span class="headOther">Current amazing thing I am doing.</span> 
-                    <br>
-                    <a href="#">
-                        <div class="btn btn-default text-center nav-pills nav-link navLink headBtn">Current Project</div>
-                    </a>
-                </div>
             </div>
           </div>
-        </header>
     </section>
     <!-- Projects -->
     <div class="container-fluid center" id='portContainer'>
+        <h2 class = "text-center portFont">PORTFOLIO ITEMS</h2>
             <div class="row portRow">
-                <h2 class = "text-center portFont">PORTFOLIO ITEMS</h2>
-                  <div class="port">
-                    <a class="col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='4s' style='background-image: url(https://i.imgur.com/xHf4DMy.png);' href="https://codepen.io/Adamws33/pen/KZQxwJ">
+                  <div class="port col-md-3 col-xl-3 portItem wow bounceIn creature">
+                    <a data-wow-delay='4s'>
                         <h3>My Creature</h3>
+                        <div class="containerDog">
+                        <div class="bottomDog">
+                            <div class="tail"></div>
+                        </div>
+                        <div class="headDog">
+                            <div class="backlegr">
+                            <div class="backpawr"></div>
+                            </div>
+                            <div class="legright">
+                            <div class="pawright"></div>
+                            </div>
+                            <div class="backlegl">
+                            <div class="backpawl"></div>
+                            </div>
+                            <div class="legleft">
+                            <div class="pawleft"></div>
+                            </div>
+                            <div class="leftbrow">
+                            <div class="leftbrow2">
+                            </div>
+                            </div>
+                            <div class="lefteye">
+                            <div id="inner-left"></div>
+                            </div>
+                            <div class="rightbrow">
+                            <div class="rightbrow2">
+                            </div>
+                            </div>
+                            <div class="righteye">
+                            <div id="inner-right"></div>
+                            </div>
+                            <div class="beard">
+                            <div class="nose"> </div>
+                            <div class="mouth">
+                            <div class="toothl"></div>
+                            <div class="toothr"></div>
+                            <div class="tongue"></div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="right-ear"></div>
+                        <div class="left-ear"></div>
+                        </div>
                     </a>
                   </div>  
-                  <div class="port">
-                    <a class="col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='3s' style='background-image: url(https://i.imgur.com/DKQP5sw.gif);' href="https://adamws33.github.io/Project1webpage/">
+                  <div class="port col-md-3 col-xl-3 portItem wow bounceIn">
+                    <a data-wow-delay='3s' style='background-image: url(https://i.imgur.com/DKQP5sw.gif);' href="https://adamws33.github.io/Project1webpage/">
                         <h3>My Website</h3>
                     </a>
                   </div>  
-                  <div class="port">
-                    <a class="col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='.5s' style='background-image: url(https://i.imgur.com/ubwQUXO.jpg);' href="http://awsregpg.herokuapp.com/">
+                  <div class="port col-md-3 col-xl-3 portItem wow bounceIn">
+                    <a data-wow-delay='.5s' style='background-image: url(https://i.imgur.com/ubwQUXO.jpg);' href="http://awsregpg.herokuapp.com/">
                         <h3>API Challenge</h3>
                     </a>
                     </div>  
-                <div class="col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='1.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 4</h3>
-                    <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
-                </div>
             </div><br>
             <div class="row">
-                <div class="col-xs-9 col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='2.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 5</h3>
+                <div class="port col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='2.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 5</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-xs-9 col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='3.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 6</h3>
+                <div class="port col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='3.5s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 6</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
                 </div>
-                <div class="col-xs-9 col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='2s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 7</h3>
+                <div class="port col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='2s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 7</h3>
                     <button class="portButton1">Click Me</button> <button class="portButton2">Click Me</button>
-                </div>
-                <div class="col-xs-9 col-md-3 col-xl-3 portItem wow bounceIn" data-wow-delay='1s' style='background-image: url(https://i.imgur.com/429EVLs.gif);'><h3>Project 8</h3>
-                    <button class="portButton1"> Click Me </button> <button class="portButton2">Click Me</button>
                 </div>
             </div>
         </div>
     <!-- About -->
-    <section class="bg-primary" id='aboutSec'>
-      <div class="container-fluid wow fadeInLeft" data-wow-delay='0.5s' id='about'>
+    <section class='container-fluid' id='aboutSec'>
+      <div class="wow fadeInLeft" data-wow-delay='0.5s' id='about'>
         <h2 class = "text-center portFont">ABOUT ME</h2><h3 class="lead"><b>Thank you for visiting, here is a little more about me:</b></h3>
-          <row>
-            <div class="col-xs-9 col-md-4 col-xl-4 center">
+          <div class="row">
+            <div class="col-md-4">
                 <p class = 'lead about'> 
                     I am in the process of changing careers from accounts payable and receivables.  I have spent all my time since college
                     dedicated to corporate finance which has left me feeling less than fulfilled.  I have always been interested in development since
@@ -113,7 +140,7 @@
                     a career that will take me farther than I had ever expected.       
                 </p>
             </div>
-            <div class="col-xs-9 col-md-4 col-xl-4 center">
+            <div class="col-md-4 ">
                 <p class = 'lead about'> 
                     I live my life by the moto "living the dream".  This is not to say my life is a dream, however I’m sure the life I am
                     living would truly be a dream to someone.  So I try to live my life like the dream it truly is and appreciate all I am so 
@@ -124,10 +151,10 @@
                     true passion in.  I am excited to have Eleven Fifty to help me find that passion. 
                 </p>
             </div>
-            <div class="col-xs-9 col-md-4 col-xl-4 center">
-                <img class = "meImg about" src="https://i.imgur.com/YMXkAqq.png" alt="me">
+            <div class="col-md-4 me">
+                <img class = "meImg about " src="https://i.imgur.com/YMXkAqq.png" alt="me">
             </div>
-          </row>        
+        </div>         
       </div>
     </section>
     <section class ="container-fluid" id='tech'>
@@ -156,7 +183,7 @@
         </row>  
     </section>
         <!-- Contact info -->
-    <section class="bg-primary" id='contactSec'>
+    <section id='contactSec'>
       <div class="container" id='contact'>
         <form action="https://formspree.io/adamws33@gmail.com" method="POST" id='contactForm'>
             <h2 class = "text-center portFont">CONTACT ME</h2>
@@ -181,14 +208,13 @@
     </section>
     <!-- footer -->
     <section>
-      <footer class="bg-primary " id='footer'>
-        <div class="container">
-            <p><a href="#">Back to top</a>
+      <footer id='footer'>
+        <div class="container-fluid footerSec">
+            <p>
             <a class='socialLinks icon ion-social-linkedin text-center ' href="https://www.linkedin.com/in/adamws33"></a>
             <a class='socialLinks icon ion-social-facebook-outline text-center ' href="https://www.facebook.com/LilRipstas"></a>
             <a class='socialLinks icon ion-social-octocat text-center ' href="https://github.com/Adamws33"></a>
-            </p>
-            <p>&copy Smith Adam Inc.
+            &copy Smith Adam Inc.
             <a href="#">Privacy agreement</a>
             <a href="#">Terms.</a> Dowload my 
             <a href="https://drive.google.com/uc?export=download&id=16j5uPFDVpbzjTSKkWPMrx9Y2dTRxMZh3">resume</a>
@@ -197,12 +223,12 @@
 
 
       </footer>
-       <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+      <a href="#" class="back-to-top"><p class="top">Top</p>  </a>
     </section>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src='js/main.min.js'></script>

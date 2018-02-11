@@ -1,5 +1,5 @@
 /* CSS code for the Header section. */
-#header{
+#lander{
     background: url('https://i.imgur.com/rzEKice.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,10 +8,13 @@
   height: 1080px;
   width: 100%;
   position: relative;
+  padding: 0%;
+  margin: 0%;
 }
 
 #headBg{
   top: 0%;
+  left: 0%;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -31,8 +34,8 @@
   // background-color: rgba(51, 50, 50, 0.6);
   border-radius: 15px;
   top: 10%;
-  padding: 0%;
-  margin: 0%;
+  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .headSpan {
@@ -42,12 +45,12 @@
   color: white;
   filter: alpha(opacity=100);
   opacity: 1;
-  padding: 0%;
-  margin: 0%;
+  padding-top: 30%;
+  margin-top: 30%;
 }
 .headOther{
   position: relative;
-  background-color: rgba(51, 50, 50, 0.6);
+  background-color: rgba(51, 50, 50, 0);
   color: white;
   filter: alpha(opacity=100);
   opacity: 1;
@@ -61,3 +64,30 @@ top: 55%;
 .email{
   left: 15%;
 }
+.awesome {
+  color: #313131;
+  -webkit-animation: colorchange 10s infinite alternate; }
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue; }
+  10% {
+    color: #8e44ad; }
+  20% {
+    color: #1abc9c; }
+  30% {
+    color: #d35400; }
+  40% {
+    color: blue; }
+  50% {
+    color: #34495e; }
+  60% {
+    color: blue; }
+  70% {
+    color: #2980b9; }
+  80% {
+    color: #f1c40f; }
+  90% {
+    color: #2980b9; }
+  100% {
+    color: pink; } }
