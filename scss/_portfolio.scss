@@ -30,15 +30,26 @@
   font-weight: 999;
   color: #000;
 }
+#portContainer .portItem:hover h3.todah {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, -10px, 0);
+  opacity: 1.0;
+}
+#portContainer .portItem h3.todah {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+  transition: transform 0.3s, opacity .3s, -webkit-transform 0.3s;
+  transform: translate3d(0, 58px, 0);
+  font-weight: 999;
+  color: #000;
+}
 #portContainer{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
-  background-color: rgb(193, 255, 214);
+  background-color: rgb(255, 255, 255);
   padding: 30px;
   margin: 0%;
-}
-.todah{
-  padding-bottom: 5px;
 }
 .portrow{
   left: 10%;
